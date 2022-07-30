@@ -1,0 +1,39 @@
+.portfolio {
+    &__blocks {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    &__title {
+        text-align: center;
+        font-weight: 400;
+        font-size: 81.3081px;
+        line-height: 108px;
+
+        color: #FFFFFF;
+                
+        font-family: 'Playfair Display';
+        margin-bottom: 60px;
+    }
+    &__block {
+        padding: 20px;
+        img {
+            display: block;
+            object-fit: cover;
+            width: 100%;
+        }
+        &:nth-child(4) {
+            margin-top: -29%;
+        }
+        &:nth-child(5) {
+            margin-top: -15.2%;
+        }
+        transition: transform 0.15s ease;
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+    &__line {
+        margin: 10% auto 0 auto !important;
+    }
+}

@@ -1,0 +1,35 @@
+.footer {
+    border-top: 1px solid white;
+    &__company {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    &__policy {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 30px;
+        margin-top: 15px;
+        p {
+            font-weight: 300;
+            font-size: 22px;
+            line-height: 27px;
+
+            /* identical to box height */
+            text-align: center;
+
+            color: #FFFFFF;
+            transition: transform 0.15s ease;
+            a {
+                color: #FFFFFF;
+                text-decoration: none;
+            }
+            &:hover {
+                transform: scale(1.05);
+            }
+        }
+    }
+}

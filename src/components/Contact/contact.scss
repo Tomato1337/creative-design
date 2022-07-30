@@ -1,0 +1,72 @@
+.contact {
+    color: white;
+    margin-bottom: 150px;
+    p {
+        font-weight: 300;
+        font-size: 40px;
+        line-height: 54px;
+    }
+    &__title {
+        font-weight: 400;
+        font-size: 81px;
+        line-height: 108px;
+        text-align: center;
+        
+font-family: 'Playfair Display';
+    }
+    &__form {
+        width: 855px;
+        margin: 25px auto 0 auto;
+    }
+    &__input {
+        width: 100%;
+        input {
+            color: white;
+            width: 100%;
+            background: none;
+            border: none;
+            border-bottom: 1px solid white;
+            padding: 10px 10px 10px 0;
+            font-weight: 400;
+            font-size: 25px;
+            line-height: 30px;
+        }
+        margin-bottom: 40px;
+    }
+    &__area {
+        width: 100%;
+        textarea {
+            color: white;
+            width: 100%;
+            background: none;
+            border: none;
+            border-bottom: 1px solid white;
+            padding: 10px 10px 10px 0;
+            font-weight: 400;
+            font-size: 25px;
+            line-height: 30px;
+            height: 150px;
+            resize: none;
+        }
+        margin-bottom: 40px;
+    }
+    &__btn {
+        width: 150px;
+        height: 70px;
+        background: #FFFFFF;
+        border-radius: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 32.4067px;
+        line-height: 46px;
+        color: #000000;
+        transition: transform 0.15s ease;
+        &:hover {
+            transform: scale(1.05);
+        }
+
+    }
+}
